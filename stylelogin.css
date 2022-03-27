@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+:root {
+    --cor-fundo: #00BFFF;
+    --cor-hover: rgb(218, 222, 215);
+    --cor-primaria: rgb(41, 40, 40);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+.container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url(https://thewallpapers.org/zoom/22800/Rainbow-Fantasy.jpg);
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	border-radius: 25px;
+	width: 500px;
+	height: 70%;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 5px 5px 15px #000000;
+
+}
+.btn{
+	margin-left: 95px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 10px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    border: none;
+    margin-top: 1rem;
+    color: #FFD700;
+	background-color: transparent;
+    border: 2px solid; 
+    margin-top: 1rem;
+}
+.btn:hover {
+    background-color: #FFD700;
+	color:#fff;
+	margin-top: 1rem;
+	transition: background-color .5s;
+}
+.title{
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color:#00BFFF;
+	text-align: center;
+}
+
+
+.list-social-midia{
+	display: flex;
+	list-style-type: none;
+}
+.form{
+	display: grid;
+	flex-direction: column;
+	align-content: center;
+	width: 70%;
+}
+.form input{
+	height: 40px;
+	width: 80%;
+	border: none;
+	background-color: #E8E8E8;
+	margin: 2px;
+}
+.label-input{
+	background-color: #E8E8E8;
+	display: flex;
+	align-items: center;
+	margin: 8px;
+}
+.description{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 250;
+	line-height: 38px;
+	font-weight: bold;
+	color: #696969;
+}
+
+.social-midia{
+	margin: 1rem 0;
+}
+.item-social-midia{
+	border: 1px solid;
+	border-radius: 50%;
+	color: #CDC9C9;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+
+}
+.item-social-midia:not(:first-child){
+	margin-left: 10px;
+}
+.item-social-midia a{
+	color: 	#CDC9C9;
+}
+.icon-modify{
+	padding: 0 5px;
+}
+.password{
+	color:;
+	font-size: 15px;
+	margin: 15px 0;
+	text-align: center;
+}
