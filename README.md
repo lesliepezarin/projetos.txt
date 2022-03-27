@@ -1,4 +1,4 @@
-# projetos.txt
+# projetos
 Me chamo Leslie, estou aprendendo a programar desde 2019 quando comecei o técnico em Informática para Internet.
 Projetos que estou desenvolvendo para melhorar meu portfólio
 
