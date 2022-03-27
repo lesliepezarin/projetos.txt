@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+    <script src="https://kit.fontawesome.com/8c695324a6.js" crossorigin="anonymous"></script>
+</head>
+<body class=""> 
+    </--menu-->
+     <nav class="dp-menu">
+        <ul>
+            <li><a href="telaIncial.php">Inicio</a></li>
+            <li><a href="relatorio.php">Relatório</a></li>
+             <li><a href="relatorio.php">Sair</a></li>
+           
+       
+    </nav>
+
+    <div class="container"> 
+    <div class="content">
+    		<h2 class="title">Faça login na sua conta</h2>
+    		<div class="midia-social">
+    			<ul class="list-social-midia">
+                    <li class="item-social-midia">
+
+                        <a onclick="abrir()" href="#"><i class="fab fa-facebook-f"></i></li></a>
+
+
+                     <li class="item-social-midia">
+                        <a onclick="abrir2()" href="#"><i class="fab fa-google"></i></li></a>
+                </ul>
+		</div></-- midias -->
+		<p class="description">Ou cadastre-se com seu e-mail.</p>
+		<form class="form">
+
+        <label class="label-input" for="">
+            <i class="fas fa-envelope icon-modify"></i>
+            <input type="email" placeholder="E-mail"></label> 
+        
+        <label class="label-input" for="">
+            <i class="fas fa-lock icon-modify"></i>
+            <input type="password" placeholder="Senha"></label> 
+
+		<a class="password" href="">Esqueceu sua senha?</a>
+		<button onclick="entrar()" class="btn">Entrar</button>
+		</form>
+
+
+</div>
+</div>
+</div>
+<script type="text/javascript">
+
+function entrar(){
+    URL="http://matematicamagica.infinityfreeapp.com/perfil/inicio.html"
+}
+   
+function abrir() {
+    URL="https://www.facebook.com/login"
+  window.open(URL, 'janela', 'width=500, height=590, top=100, left=500, scrollbars=no, status=no, toolbar=no, location=no, menubar=no, resizable=no, fullscreen=no')
+}
+function abrir2() {
+    URL="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+  window.open(URL, 'janela', 'width=500, height=590, top=100, left=500, scrollbars=no, status=no, toolbar=no, location=no, menubar=no, resizable=no, fullscreen=no')
+}
+
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
